@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wechat\n"
+"POT-Creation-Date: 2015-06-08 14:46+0800\n"
+"PO-Revision-Date: 2015-06-08 14:46+0800\n"
+"Last-Translator: smyx <smyx@qq.com>\n"
+"Language-Team: smyx <smyx@qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: E:\\php\\APMServ5.2.6\\www\\htdocs\\wp-content\\plugins"
+"\\weixin-helper\\languages\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: weixin-helper.php:19
+msgid ""
+"Sorry, you cannot use this paid plugin, ZEND is not support for php 5.5.x or "
+"above."
+msgstr ""
+
+#: weixin-helper.php:33
+msgid ""
+"Sorry, you cannot use this paid plugin, ZEND version is not up to date, "
+"please update to at least 3.3.0<a href=\"http://www.zend.com/en/products/"
+"guard/downloads\" target=\"_blank\">View</a>"
+msgstr ""
+
+#: weixin-helper.php:37
+msgid ""
+"Sorry, you cannot use this paid plugin, please contact your server company "
+"<a href=\"http://www.zend.com/en/products/guard/downloads\" target=\"_blank"
+"\">Zend Guard Loader</a>."
+msgstr ""
+
+#: weixin-helper.php:39
+msgid ""
+"Sorry, you cannot use this paid plugin, please contact your server company "
+"<a href=\"http://www.zend.com/en/products/guard/downloads-prev\" target="
+"\"_blank\">Zend Optimizer</a>."
+msgstr ""
+
+#: weixin-helper.php:87 weixin-helper.php:90 weixin-helper.php:108
+#: weixin-helper.php:494 weixin-helper.php:539
+msgid "WeChat Helper"
+msgstr ""
+
+#: weixin-helper.php:90 weixin-helper.php:170 weixin-helper.php:542
+msgid "General Settings"
+msgstr ""
+
+#: weixin-helper.php:98
+msgid "Settings"
+msgstr ""
+
+#: weixin-helper.php:147 modules/functions.php:366
+msgid "Please enter validation code to active your plugin."
+msgstr ""
+
+#: weixin-helper.php:174
+msgid "Please enter your validation code："
+msgstr ""
+
+#: weixin-helper.php:176
+msgid ""
+"You are currently using WPMU, please enable \"WeChat Helper\" for entire "
+"network from \"Network Setting\" page."
+msgstr ""
+
+#: weixin-helper.php:223
+msgid "On"
+msgstr ""
+
+#: weixin-helper.php:260 weixin-helper.php:549
+msgid "Save Changes"
+msgstr ""
+
+#: weixin-helper.php:527
+msgid "Please enter your \"ROOT-domain\" validation code, correctly."
+msgstr ""
+
+#: weixin-helper.php:539
+msgid "Network Settings"
+msgstr ""
+
+#: weixin-helper.php:545
+msgid "Please enter your \"ROOT-domain\" validation code:"
+msgstr ""
+
+#: weixin-helper.php:553
+msgid "How to gain a validation code for ROOT-domain?"
+msgstr ""
+
+#: weixin-helper.php:553
+msgid "please select a ROOT-domain or WPMU"
+msgstr ""
+
+#: modules/log.php:19
+msgid "发送失败"
+msgstr ""
+
+#: modules/log.php:19
+msgid "发送成功"
+msgstr ""
+
+#: modules/log.php:19
+msgid "已发送"
+msgstr ""
+
+#: modules/log.php:21
+msgid "已删除"
+msgstr ""
+
+#: modules/log.php:21
+msgid "正常"
+msgstr ""
+
+#: modules/log.php:26
+msgid "群发"
+msgstr ""
+
+#: modules/log.php:26
+msgid "客服回复"
+msgstr ""
+
+#: modules/log.php:26
+msgid "临时素材"
+msgstr ""
+
+#: modules/log.php:26
+msgid "永久素材"
+msgstr ""
+
+#: modules/log.php:33
+msgid "Text"
+msgstr ""
+
+#: modules/log.php:33
+msgid "Post with image"
+msgstr ""
+
+#: modules/log.php:33
+msgid "Image"
+msgstr ""
+
+#: modules/log.php:69
+msgid "weibo"
+msgstr ""
+
+#: modules/log.php:71
+msgid "yixin.im"
+msgstr ""
+
+#: modules/log.php:73
+msgid "wechat"
+msgstr ""
+
+#: modules/log.php:86 modules/log.php:133
+msgid "Delete"
+msgstr ""
+
+#: modules/log.php:99
+msgid "Project"
+msgstr ""
+
+#: modules/log.php:100
+msgid "MsgType"
+msgstr ""
+
+#: modules/log.php:101
+msgid "Content"
+msgstr ""
+
+#: modules/log.php:102
+msgid "Status"
+msgstr ""
+
+#: modules/log.php:103
+msgid "Date"
+msgstr ""
+
+#: modules/log.php:104
+msgid "Site"
+msgstr ""
+
+#: modules/log.php:233
+msgid "All"
+msgstr ""
+
+#: modules/log.php:312
+msgid "群发记录"
+msgstr ""
+
+#: modules/update.php:463
+msgid "The plugin is at the latest version."
+msgstr ""
+
+#~ msgid "%1$s %2$d"
+#~ msgstr "%1$s %2$d"

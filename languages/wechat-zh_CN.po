@@ -1,0 +1,648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wechat\n"
+"POT-Creation-Date: 2015-06-08 14:44+0800\n"
+"PO-Revision-Date: 2015-06-08 14:45+0800\n"
+"Last-Translator: smyx <smyx@qq.com>\n"
+"Language-Team: smyx <smyx@qq.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: E:\\php\\APMServ5.2.6\\www\\htdocs\\wp-content\\plugins"
+"\\weixin-helper\\languages\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: weixin-helper.php:19
+msgid ""
+"Sorry, you cannot use this paid plugin, ZEND is not support for php 5.5.x or "
+"above."
+msgstr ""
+"很遗憾，您不能使用 付费插件，php 5.5.x及以上版本不能使用zend，请降到PHP5.4.x"
+"或者PHP5.3.x或者PHP5.2.x，并且安装zend."
+
+#: weixin-helper.php:33
+msgid ""
+"Sorry, you cannot use this paid plugin, ZEND version is not up to date, "
+"please update to at least 3.3.0<a href=\"http://www.zend.com/en/products/"
+"guard/downloads\" target=\"_blank\">View</a>"
+msgstr ""
+"很遗憾，您不能使用 付费插件，zend版本太低，请升级到3.3.0或以上版本，<a href="
+"\"http://www.zend.com/en/products/guard/downloads\" target=\"_blank\">查看</"
+"a>"
+
+#: weixin-helper.php:37
+msgid ""
+"Sorry, you cannot use this paid plugin, please contact your server company "
+"<a href=\"http://www.zend.com/en/products/guard/downloads\" target=\"_blank"
+"\">Zend Guard Loader</a>."
+msgstr ""
+"很遗憾，您不能使用 付费插件，请联系空间商安装 <a href=\"http://www.zend.com/"
+"en/products/guard/downloads\" target=\"_blank\">Zend Guard Loader</a>"
+
+#: weixin-helper.php:39
+msgid ""
+"Sorry, you cannot use this paid plugin, please contact your server company "
+"<a href=\"http://www.zend.com/en/products/guard/downloads-prev\" target="
+"\"_blank\">Zend Optimizer</a>."
+msgstr ""
+"很遗憾，您不能使用 付费插件，请联系空间商安装 <a href=\"http://www.zend.com/"
+"en/products/guard/downloads-prev\" target=\"_blank\">Zend Optimizer</a>"
+
+#: weixin-helper.php:87 weixin-helper.php:90 weixin-helper.php:108
+#: weixin-helper.php:494 weixin-helper.php:539
+msgid "WeChat Helper"
+msgstr "微信群发助手"
+
+#: weixin-helper.php:90 weixin-helper.php:170 weixin-helper.php:542
+msgid "General Settings"
+msgstr "基本设置"
+
+#: weixin-helper.php:98
+msgid "Settings"
+msgstr ""
+
+#: weixin-helper.php:147 modules/functions.php:366
+msgid "Please enter validation code to active your plugin."
+msgstr "请填写正确的插件授权码。"
+
+#: weixin-helper.php:174
+msgid "Please enter your validation code："
+msgstr "填写插件授权码："
+
+#: weixin-helper.php:176
+msgid ""
+"You are currently using WPMU, please enable \"WeChat Helper\" for entire "
+"network from \"Network Setting\" page."
+msgstr ""
+"您正在使用WPMU，您可以在“管理网络”的插件页面“整个网络启用“微信群发助手”。"
+
+#: weixin-helper.php:223
+msgid "On"
+msgstr "开启"
+
+#: weixin-helper.php:260 weixin-helper.php:549
+msgid "Save Changes"
+msgstr ""
+
+#: weixin-helper.php:527
+msgid "Please enter your \"ROOT-domain\" validation code, correctly."
+msgstr "请填写正确的插件“根域名”授权码。"
+
+#: weixin-helper.php:539
+msgid "Network Settings"
+msgstr ""
+
+#: weixin-helper.php:545
+msgid "Please enter your \"ROOT-domain\" validation code:"
+msgstr "填写插件“根域名”授权码："
+
+#: weixin-helper.php:553
+msgid "How to gain a validation code for ROOT-domain?"
+msgstr "如何获得根域名授权码?"
+
+#: weixin-helper.php:553
+msgid "please select a ROOT-domain or WPMU"
+msgstr "请选择根域名或者WPMU"
+
+#: modules/log.php:19
+msgid "发送失败"
+msgstr ""
+
+#: modules/log.php:19
+msgid "发送成功"
+msgstr ""
+
+#: modules/log.php:19
+msgid "已发送"
+msgstr ""
+
+#: modules/log.php:21
+msgid "已删除"
+msgstr ""
+
+#: modules/log.php:21
+msgid "正常"
+msgstr ""
+
+#: modules/log.php:26
+msgid "群发"
+msgstr ""
+
+#: modules/log.php:26
+msgid "客服回复"
+msgstr ""
+
+#: modules/log.php:26
+msgid "临时素材"
+msgstr ""
+
+#: modules/log.php:26
+msgid "永久素材"
+msgstr ""
+
+#: modules/log.php:33
+msgid "Text"
+msgstr "文本"
+
+#: modules/log.php:33
+msgid "Post with image"
+msgstr "图文"
+
+#: modules/log.php:33
+msgid "Image"
+msgstr "图片"
+
+#: modules/log.php:69
+msgid "weibo"
+msgstr "新浪微博"
+
+#: modules/log.php:71
+msgid "yixin.im"
+msgstr "易信"
+
+#: modules/log.php:73
+msgid "wechat"
+msgstr "微信（WeChat）"
+
+#: modules/log.php:86 modules/log.php:133
+msgid "Delete"
+msgstr "移除"
+
+#: modules/log.php:99
+msgid "Project"
+msgstr "项目"
+
+#: modules/log.php:100
+msgid "MsgType"
+msgstr "消息类型"
+
+#: modules/log.php:101
+msgid "Content"
+msgstr "内容"
+
+#: modules/log.php:102
+msgid "Status"
+msgstr "状态"
+
+#: modules/log.php:103
+msgid "Date"
+msgstr ""
+
+#: modules/log.php:104
+msgid "Site"
+msgstr "站点"
+
+#: modules/log.php:233
+msgid "All"
+msgstr ""
+
+#: modules/log.php:312
+msgid "群发记录"
+msgstr ""
+
+#: modules/update.php:463
+msgid "The plugin is at the latest version."
+msgstr ""
+
+#~ msgid "Wechat Helper"
+#~ msgstr "微信群发助手"
+
+#~ msgid "Today"
+#~ msgstr "今日"
+
+#~ msgid "Yesterday"
+#~ msgstr "昨日"
+
+#~ msgid "Last %d days"
+#~ msgstr "最近%d天"
+
+#~ msgid "Data Analyzing"
+#~ msgstr "数据分析"
+
+#~ msgid "Message Records"
+#~ msgstr "消息记录"
+
+#~ msgid "Most Searched Keywords"
+#~ msgstr "热门关键字"
+
+#~ msgid "User Activities"
+#~ msgstr "活跃用户"
+
+#~ msgid "Show all dates"
+#~ msgstr "显示所有日"
+
+#~ msgid "%1$s %2$d"
+#~ msgstr "%1$s %2$d"
+
+#~ msgid "Show all days"
+#~ msgstr "显示所有日"
+
+#~ msgid "Keywords"
+#~ msgstr "关键字"
+
+#~ msgid "Users"
+#~ msgstr "用户"
+
+#~ msgid "Massage Records Analytics"
+#~ msgstr "消息记录统计"
+
+#~ msgid "record(s)"
+#~ msgstr "记录 (条)"
+
+#~ msgid "piece"
+#~ msgstr "条"
+
+#~ msgid "Number of records"
+#~ msgstr "记录数"
+
+#~ msgid "Admin can use connected private WeChat account to view search data."
+#~ msgstr "管理员可以使用绑定的私人帐号查询数据。"
+
+#~ msgid "connect WeChat"
+#~ msgstr "绑定帐号"
+
+#~ msgid ""
+#~ "d0 - Today's Data\n"
+#~ "d1 - Yesterday's Data\n"
+#~ "d7 - Last 7 days' data\n"
+#~ "d30 - Last 30 days' data"
+#~ msgstr ""
+#~ "d0 - 今日数据\n"
+#~ "d1 - 昨日数据\n"
+#~ "d7 - 最近7天数据\n"
+#~ "d30 - 最近30天数据"
+
+#~ msgid "No."
+#~ msgstr "序号"
+
+#~ msgid "Quantity"
+#~ msgstr "数量"
+
+#~ msgid "View All"
+#~ msgstr "显示全部"
+
+#~ msgid "Off"
+#~ msgstr "关闭"
+
+#~ msgid "Custom Post with image"
+#~ msgstr "自定义图文"
+
+#~ msgid "Music"
+#~ msgstr "音乐"
+
+#~ msgid "Type"
+#~ msgstr "类型"
+
+#~ msgid "Edit Custom Reply"
+#~ msgstr "编辑自定义回复"
+
+#~ msgid "Cancel"
+#~ msgstr "取消"
+
+#~ msgid "Add Custom Reply"
+#~ msgstr "新增自定义回复"
+
+#~ msgid "Title"
+#~ msgstr "标题"
+
+#~ msgid "(Required)"
+#~ msgstr "(必填)"
+
+#~ msgid "Link"
+#~ msgstr "链接"
+
+#~ msgid "Image URL"
+#~ msgstr "图片链接"
+
+#~ msgid "Description"
+#~ msgstr "描述"
+
+#~ msgid "Custom Reply"
+#~ msgstr "自定义回复"
+
+#~ msgid "Add a"
+#~ msgstr "新增一条"
+
+#~ msgid "Separate keywords with commas"
+#~ msgstr "（多个关键字请用英文逗号<code>,</code>分开）"
+
+#~ msgid "Reply Type"
+#~ msgstr "回复类型"
+
+#~ msgid ""
+#~ "If select\"Post with image\", please enter post ID as reply content, use "
+#~ "\",\" to divide multiple posts, e.g: 1,2,3"
+#~ msgstr ""
+#~ "如果选择“图文”，回复内容处请填写文章ID，多篇文章用英文逗号隔开，如: 1,2,3"
+
+#~ msgid "within 200 words, only display for one post with image."
+#~ msgstr "200字内，仅一条图文时才显示。"
+
+#~ msgid "Add a custom Post with image"
+#~ msgstr "新增一条自定义图文"
+
+#~ msgid "maximum reply 10 posts"
+#~ msgstr "最多10条"
+
+#~ msgid "MP3 URL"
+#~ msgstr "音乐链接"
+
+#~ msgid "Search Keywords"
+#~ msgstr "搜索关键字"
+
+#~ msgid "Subscribe"
+#~ msgstr "订阅"
+
+#~ msgid "Unsubscribe"
+#~ msgstr "取消订阅"
+
+#~ msgid "Follow"
+#~ msgstr "关注"
+
+#~ msgid "Unfollow"
+#~ msgstr "取消关注"
+
+#~ msgid "CLICK"
+#~ msgstr "自定义菜单"
+
+#~ msgid "Voice"
+#~ msgstr "语音"
+
+#~ msgid "Video"
+#~ msgstr "视频"
+
+#~ msgid "Location"
+#~ msgstr "地理位置"
+
+#~ msgid ""
+#~ "Success! New menu would be displayed within 24 hours by WeChat Cache "
+#~ "System. It'd be better and quicker to show up, if you just unfollow your "
+#~ "service account, then follow it again."
+#~ msgstr ""
+#~ "添加成功！由于客户端缓存，需要24小时客户端才会展现出来。建议先取消关注公众"
+#~ "账号后，再次关注，则可以看到创建后的效果。"
+
+#~ msgid "Notice: %s ,please check your setting is correct or not."
+#~ msgstr "提示：%s，请检查是否设置正确。"
+
+#~ msgid "Please enter your AppID and AppSecret."
+#~ msgstr "请先填写AppId和AppSecret"
+
+#~ msgid "Button Name"
+#~ msgstr "按钮名称"
+
+#~ msgid "Sub Button Name"
+#~ msgstr "子按钮名称"
+
+#~ msgid "Keyword/URL"
+#~ msgstr "关键字/URL"
+
+#~ msgid "click events"
+#~ msgstr "点击事件"
+
+#~ msgid "view web page"
+#~ msgstr "访问网页"
+
+#~ msgid "Custom Menu"
+#~ msgstr "自定义菜单"
+
+#~ msgid "WeChat Custom Menu"
+#~ msgstr "微信自定义菜单"
+
+#~ msgid "YiXin Custom Menu"
+#~ msgstr "易信自定义菜单"
+
+#~ msgid "Weibo Custom Menu"
+#~ msgstr "微博自定义菜单"
+
+#~ msgid ""
+#~ "Tips: Only WeChat Public Service Account could apply for customer menu, "
+#~ "if you already applied please enter below."
+#~ msgstr ""
+#~ "说明：只有<strong>服务号</strong>能申请微信自定义菜单，如果您已经申请了请"
+#~ "在下面填写:"
+
+#~ msgid ""
+#~ "Tips: button name should not be over 16 characters, sub button name "
+#~ "should not be over 40 characters. If chose \"click events\", it's "
+#~ "\"Keyword\", and should be setup under <a href=\"admin.php?page=wechat-"
+#~ "answer\" target=\"_blank\">Custom Reply</a> Setting, or you could "
+#~ "manually use <a href=\"http://www.smyx.net/wp-connect-weixin-custom-reply."
+#~ "html\" target=\"_blank\">php coding </a>. If chose \"view web page\", "
+#~ "please enter URL, both Keyword and URL should not be over 128 characters."
+#~ msgstr ""
+#~ "说明：按钮名字不能超过16个字节，子按钮名字不能超过40个字节。如果选择“点击"
+#~ "事件”，即为“关键字”，可以在<a href=\"admin.php?page=wechat-answer\" "
+#~ "target=\"_blank\">自定义回复</a>设置，也可以自己用<a href=\"http://www."
+#~ "smyx.net/wp-connect-weixin-custom-reply.html\" target=\"_blank\">php代码</"
+#~ "a>扩展，如果选择“访问网页”，请写URL，关键字或者URL不能超过128字节。"
+
+#~ msgid "Button"
+#~ msgstr "按钮"
+
+#~ msgid "if it has sub menu, please leave this area to blank"
+#~ msgstr "当存在子按钮时，本处关键字为空"
+
+#~ msgid "+ add sub button (Max 5)"
+#~ msgstr "+ 添加子按钮（最多5个）"
+
+#~ msgid "Submit"
+#~ msgstr "提交"
+
+#~ msgid "Create"
+#~ msgstr "创建时间"
+
+#~ msgid "From"
+#~ msgstr "来源"
+
+#~ msgid "Show all MsgType"
+#~ msgstr "显示所有消息类型"
+
+#~ msgid "communication records (Follower and WeChat Public Account)"
+#~ msgstr "用户与公众帐号的互动记录"
+
+#~ msgid "Extension"
+#~ msgstr "扩展组件"
+
+#~ msgid "Define welcome message when new clients follow you"
+#~ msgstr "被关注时显示的欢迎词"
+
+#~ msgid "setup a default image"
+#~ msgstr "设置一张默认图片"
+
+#~ msgid "( http:// initial image URL )"
+#~ msgstr "http:// 开头的图片URL"
+
+#~ msgid "define maximum number of return posts："
+#~ msgstr "返回的最大条数："
+
+#~ msgid ""
+#~ "( WeChat maximum support return 10 posts and the best view model would be "
+#~ "4 posts )"
+#~ msgstr "（微信最多支持10条，4条时为最佳阅读状态）"
+
+#~ msgid "define \"the latest posts\" keywords："
+#~ msgstr "返回“最新文章”的关键字："
+
+#~ msgid "define \"random posts\" keywords："
+#~ msgstr "返回“随机文章”的关键字："
+
+#~ msgid "define \"the most viewed posts\" keywords within a week："
+#~ msgstr "返回“一周内的热门文章”的关键字："
+
+#~ msgid "require to install <code>WP-PostViews</code> plugin"
+#~ msgstr "需要安装<code>WP-PostViews</code>插件"
+
+#~ msgid "Add initial search command to Posts"
+#~ msgstr "给文章搜索加上开头指令"
+
+#~ msgid ""
+#~ "(Optional, not be recommended)<br />E.g. Set <code>s Keywords</code> for "
+#~ "search posts keywords, all blank space between initial command and "
+#~ "keywords which would not be work for the keywords of customer reply."
+#~ msgstr ""
+#~ "（可填，不推荐设置）<br />比如:用<code>s 关键字</code>表示搜索文章，开头指"
+#~ "令和关键字用空格分开，不会对自定义回复的关键字起作用。"
+
+#~ msgid "define reply when \"search result is empty\"："
+#~ msgstr "“搜索结果为空”时的提示语："
+
+#~ msgid ""
+#~ "Sorry, but nothing matched your search criteria. Please try again with "
+#~ "some different keywords."
+#~ msgstr "很遗憾，没有找到相关内容，请换其它关键词试试。"
+
+#~ msgid "turn on/off reply when \"search result is empty\"："
+#~ msgstr "“搜索结果为空”时不返回提示语："
+
+#~ msgid "define \"turn on/off convert post catalogs and tags to keyworks"
+#~ msgstr "将文章分类和标签转换为关键字"
+
+#~ msgid "WeChat Connection"
+#~ msgstr "绑定公众帐号"
+
+#~ msgid ""
+#~ "Admin can connect private wechat account with public wechat account, via "
+#~ "keyword<a href=\"admin.php?page=wechat-analytics\" target=\"_blank"
+#~ "\">WeChat Analytics</a>."
+#~ msgstr ""
+#~ "管理员可以将私人帐号与公众帐号绑定，通过关键字<a href=\"admin.php?"
+#~ "page=wechat-analytics\" target=\"_blank\">查询数据</a>。"
+
+#~ msgid ""
+#~ "Send <code>/help</code> It would return help menu. Only for connected "
+#~ "\"private wechat account\"."
+#~ msgstr ""
+#~ "发送 <code>/help</code> 将返回帮助指令。所有指令只作用于绑定的“私人帐号”。"
+
+#~ msgid "connect private wechat accout"
+#~ msgstr "绑定私人微信"
+
+#~ msgid ""
+#~ "<span><strong>Connected</strong>，unlock connection please send command "
+#~ "<code>/soff</code></span>"
+#~ msgstr ""
+#~ "<span><strong>已绑定</strong>，解除绑定请发送 <code>/soff</code></span>"
+
+#~ msgid ""
+#~ " <input type=\"submit\" name=\"%s_verify_result\" value=\"View Result\" /"
+#~ "><p>Please use your \"private account\" to send 8 digits validation code "
+#~ "to \"public account\"</p>"
+#~ msgstr ""
+#~ " <input type=\"submit\" name=\"%s_verify_result\" value=\"查看结果\" /><p>"
+#~ "请用您的“私人帐号”发送上面8位验证码给“公众帐号”</p>"
+
+#~ msgid ""
+#~ "<input type=\"submit\" name=\"%s_verification\" value=\"Gain Validation "
+#~ "Code\" /><p>Click \"Gain Validation Code\" to display 8 digits validation "
+#~ "code which could be used to your \"private account\" to send \"public "
+#~ "account\"</p>"
+#~ msgstr ""
+#~ "<input type=\"submit\" name=\"%s_verification\" value=\"生成验证码\" /><p>"
+#~ "点击“生成验证码”后，会出现8位随机验证码，用您的“私人帐号”发送给“公众帐"
+#~ "号”</p>"
+
+#~ msgid "connect private yixin accout"
+#~ msgstr "绑定私人易信"
+
+#~ msgid "Keywords \"Define Reply\""
+#~ msgstr "关键字“自定义回复”"
+
+#~ msgid ""
+#~ "You could define extra keywords. Please click <a href=\"admin.php?"
+#~ "page=wechat-answer\">WeChat Define Reply</a>"
+#~ msgstr ""
+#~ "除了上面设置的关键字，您还可以自己定义一些关键字，请点击 <a href=\"admin."
+#~ "php?page=wechat-answer\">自定义回复</a>"
+
+#~ msgid ""
+#~ "If you are a php master, please view our coding keywords define "
+#~ "instruction, it would be possible to create much more powerful replies. "
+#~ "Self-defined PHP coding replies would be more priority than general "
+#~ "define replies, <a href=\"http://www.smyx.net/wp-connect-weixin-custom-"
+#~ "reply.html\" target=\"_blank\">View \"Menu of Define your Replies\"</a>"
+#~ msgstr ""
+#~ "如果您是php高手，请看我们的自定义教程，完全可以写出更强大的自定义回复。"
+#~ "<br />优先级为 自定义php代码 > 后台自定义回复，<a href=\"http://www.smyx."
+#~ "net/wp-connect-weixin-custom-reply.html\" target=\"_blank\">查看“手动自定"
+#~ "义回复”文档</a>"
+
+#~ msgid "WeChat Public Account\" Account Opening Instruction"
+#~ msgstr "“微信公众平台”开通指南"
+
+#~ msgid ""
+#~ "1、Open <a href=\"http://mp.weixin.qq.com/\" target=\"_blank\">WeChat "
+#~ "Public Account</a>, click on \"Register\".<br />2、Login to your QQ "
+#~ "account, provide all your details, please give a nice name for \"Account "
+#~ "Name\" (Notes: This account name cannot be changed after this setting). "
+#~ "<br />3、Select\"Regular WeChat Public Account\"<br />4、After "
+#~ "registration, you could view your account number and QR code under "
+#~ "\"Settings\". It is a good way to download this QR image and put on your "
+#~ "website.<br />5、Click \"Advance Function\", Disable \"Editor Model\" and "
+#~ "go to \"Developer Model\", enable it, then click on \"Become Developer\", "
+#~ "please fill correct URL and Token."
+#~ msgstr ""
+#~ "1、打开<a href=\"http://mp.weixin.qq.com/\" target=\"_blank\">微信公众平台"
+#~ "</a> ，点击右上角的“注册”。<br />2、登录QQ后，填写信息，其中第一项“帐号名"
+#~ "称”，尽量取得好听写，支持中文噢。（注册后不可修改）<br />3、选择“普通公众"
+#~ "帐号类型”<br />4、注册完成后，您可以在“设置”里面，看到您的微信号和二维码，"
+#~ "建议把二维码下载下来并上传到您的网站，放在醒要位置。<br />5、点击菜单栏"
+#~ "的“高级功能”，先进入\"编辑模式\"，点击“关闭”。之后进入“开发模式“，点击“开"
+#~ "启”，再点击下面的“成为开发者”，在“接口配置信息”里面填写上面提示的URL和"
+#~ "Token。"
+
+#~ msgid "Help"
+#~ msgstr "帮助"
+
+#~ msgid "Unlock WeChat Connection"
+#~ msgstr "解除绑定"
+
+#~ msgid ""
+#~ "If search for other keywords, system would reply either custom token "
+#~ "replies or related posts."
+#~ msgstr "发送其他关键字将返回自定义回复或者网站的相关文章。"
+
+#~ msgid "%s' data"
+#~ msgstr "%s数据"
+
+#~ msgid "Unlocked WeChat Connection Successfully!"
+#~ msgstr "已解除帐号绑定！"
+
+#~ msgid ""
+#~ "Connected! If need further instruction please enter\n"
+#~ " /help"
+#~ msgstr ""
+#~ "已绑定！如需帮助请发送\n"
+#~ " /help"
+
+#~ msgid "Sorry, no new post has been found!"
+#~ msgstr "抱歉，没有新文章！"
+
+#~ msgid "Sorry， no post has been found!"
+#~ msgstr "抱歉，没有文章！"
+
+#~ msgid "Third Party"
+#~ msgstr "第三方平台"
